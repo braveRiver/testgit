@@ -1,31 +1,31 @@
-ÅäÖÃgit
-	ÓÃ»§Ãû£ºgit config ¨Cglobal username  ¡°hezhongjiang¡±
-	ÓÊÏä:	git config  --global user.email  694022523@qq.com
-¿ªÊ¼Ê¹ÓÃ
-	´´½¨°æ±¾¿â
-		²½Öè£º	1¡¢´´½¨ÎÄ¼ş¼Ğ
-				2¡¢Ê¹ÓÃgit init ÃüÁî½«µ±Ç°Ä¿Â¼±ä³Égit¿ÉÒÔ¹ÜÀíµÄ²Ö¿â
-				3¡¢Ê¹ÓÃgit add ½«ÎÄ¼şÌí¼Óµ½Ôİ´æÇøÖĞ
+é…ç½®git
+	ç”¨æˆ·åï¼šgit config â€“global username  â€œhezhongjiangâ€
+	é‚®ç®±:	git config  --global user.email  694022523@qq.com
+å¼€å§‹ä½¿ç”¨
+	åˆ›å»ºç‰ˆæœ¬åº“
+		æ­¥éª¤ï¼š	1ã€åˆ›å»ºæ–‡ä»¶å¤¹
+				2ã€ä½¿ç”¨git init å‘½ä»¤å°†å½“å‰ç›®å½•å˜æˆgitå¯ä»¥ç®¡ç†çš„ä»“åº“
+				3ã€ä½¿ç”¨git add å°†æ–‡ä»¶æ·»åŠ åˆ°æš‚å­˜åŒºä¸­
 						git add readme.txt 
-				4¡¢Ê¹ÓÃgit commit ÃüÁî½«ÎÄ¼şÌá½»ÖÁ²Ö¿â
-						git submit ./ Ìá½»µ±Ç°Ä¿Â¼
-						git submit ./ -m ¡°ºÎÖĞ½­Ìá½»¡±
-				5¡¢Ê¹ÓÃgit status ²é¿´ÊÇ·ñÓĞÎ´Ìá½»µÄÎÄ¼ş
+				4ã€ä½¿ç”¨git commit å‘½ä»¤å°†æ–‡ä»¶æäº¤è‡³ä»“åº“
+						git submit ./ æäº¤å½“å‰ç›®å½•
+						git submit ./ -m â€œä½•ä¸­æ±Ÿæäº¤â€
+				5ã€ä½¿ç”¨git status æŸ¥çœ‹æ˜¯å¦æœ‰æœªæäº¤çš„æ–‡ä»¶
 						 git status
-				6¡¢git push ¨Cu original master
-³£ÓÃÃüÁî£º
-1¡¢	Ö÷»ú¿ËÂ¡Ò»¸ö°æ±¾¿â£¬ÀıÈç£º$ git clone https://github.com/jquery/jquery.git ¿ËÂ¡jQuery¿â
-¸ÃÃüÁî»áÔÚ±¾µØÖ÷»úÉú³ÉÒ»¸öÄ¿Â¼£¬ÓëÔ¶³ÌÖ÷»úµÄ°æ±¾¿âÍ¬Ãû¡£Èç¹ûÒªÖ¸¶¨²»Í¬µÄÄ¿Â¼Ãû£¬¿ÉÒÔ½«Ä¿Â¼Ãû×÷Îªgit clone ÃüÁîµÄµÚ¶ş¸ö²ÎÊı
-$ git clone <°æ±¾¿âµÄÍøÖ·> <±¾µØÄ¿Â¼Ãû>
+				6ã€git push â€“u original master
+å¸¸ç”¨å‘½ä»¤ï¼š
+1ã€	ä¸»æœºå…‹éš†ä¸€ä¸ªç‰ˆæœ¬åº“ï¼Œä¾‹å¦‚ï¼š$ git clone https://github.com/jquery/jquery.git å…‹éš†jQueryåº“
+è¯¥å‘½ä»¤ä¼šåœ¨æœ¬åœ°ä¸»æœºç”Ÿæˆä¸€ä¸ªç›®å½•ï¼Œä¸è¿œç¨‹ä¸»æœºçš„ç‰ˆæœ¬åº“åŒåã€‚å¦‚æœè¦æŒ‡å®šä¸åŒçš„ç›®å½•åï¼Œå¯ä»¥å°†ç›®å½•åä½œä¸ºgit clone å‘½ä»¤çš„ç¬¬äºŒä¸ªå‚æ•°
+$ git clone <ç‰ˆæœ¬åº“çš„ç½‘å€> <æœ¬åœ°ç›®å½•å>
 
-git clone Ö§³Ö¶àÖÖĞ­Òé£¬³ıÁË HTTP (s)ÒÔÍâ£¬»¹Ö§³Ö SSH¡¢Git¡¢±¾µØÎÄ¼şĞ­ÒéµÈ£¬ÏÂÃæÊÇÒ»Ğ©Àı×Ó¡£
-1.	$ git clone http[s]://example.com/path/to/repo.git/  
-2.	$ git clone ssh://example.com/path/to/repo.git/  
-3.	$ git clone git://example.com/path/to/repo.git/  
-4.	$ git clone /opt/git/project.git   
-5.	$ git clone file:///opt/git/project.git  
-6.	$ git clone ftp[s]://example.com/path/to/repo.git/  
-7.	$ git clone rsync://example.com/path/to/repo.git/  
-SSHĞ­Òé»¹ÓĞÁíÒ»ÖÖĞ´·¨¡£
+git clone æ”¯æŒå¤šç§åè®®ï¼Œé™¤äº† HTTP (s)ä»¥å¤–ï¼Œè¿˜æ”¯æŒ SSHã€Gitã€æœ¬åœ°æ–‡ä»¶åè®®ç­‰ï¼Œä¸‹é¢æ˜¯ä¸€äº›ä¾‹å­ã€‚
+	1. $ git clone http[s]://example.com/path/to/repo.git/  
+	2. $ git clone ssh://example.com/path/to/repo.git/  
+	3. $ git clone git://example.com/path/to/repo.git/  
+	4. $ git clone /opt/git/project.git   
+	5. $ git clone file:///opt/git/project.git  
+	6. $ git clone ftp[s]://example.com/path/to/repo.git/  
+	7. $ git clone rsync://example.com/path/to/repo.git/  
+SSHåè®®è¿˜æœ‰å¦ä¸€ç§å†™æ³•ã€‚
 1.	$ git clone [user@]example.com:path/to/repo.git/  
 
